@@ -3,7 +3,7 @@
 :root {
       --transition-hover: 150ms ease;
 
-      &[data-mode="day"] {
+      &[data-mode="night"] {
             --bg-image: url("../assets/mobile/bg-image-daytime.jpg");
             @include breakpoint-up(medium) {
                   --bg-image: url("../assets/tablet/bg-image-daytime.jpg");
@@ -13,7 +13,7 @@
             }
       }
 
-      &[data-mode="night"] {
+      &[data-mode="day"] {
             --bg-image: url("../assets/mobile/bg-image-nighttime.jpg");
             @include breakpoint-up(medium) {
                   --bg-image: url("../assets/tablet/bg-image-nighttime.jpg");
