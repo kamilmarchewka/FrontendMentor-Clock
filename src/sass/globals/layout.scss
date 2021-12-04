@@ -1,0 +1,18 @@
+@use "../utils" as *;
+
+.container {
+      max-width: rem(1110);
+      margin-inline: auto;
+      padding-block: rem(56);
+      // padding-block-end: rem(98);
+
+      @include breakpoint(large) {
+            padding-inline: 5rem;
+      }
+      @include breakpoint(medium) {
+            padding-inline: 3rem;
+      }
+      @include breakpoint(small) {
+            padding-inline: 1.5rem;
+      }
+}

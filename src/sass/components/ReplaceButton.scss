@@ -1,0 +1,39 @@
+.replace-button {
+      $r: &;
+      display: block;
+      background: none;
+      border: none;
+      padding: 0.4rem;
+      cursor: pointer;
+      transition: var(--transition-hover);
+      backface-visibility: hidden;
+
+      &:hover,
+      &:focus-visible {
+            transform: scale(1.1);
+      }
+
+      &__icon {
+            opacity: 0.5;
+            transition: var(--transition-hover);
+
+            #{$r}:hover &,
+            #{$r}:focus-visible & {
+                  opacity: 1;
+            }
+      }
+}
+
+@keyframes spin {
+      from {
+            transform: rotate(0);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+.spin {
+      // change time in js
+      animation: spin 300ms ease-in-out 1;
+      // animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

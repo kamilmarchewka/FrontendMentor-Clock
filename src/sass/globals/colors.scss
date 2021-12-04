@@ -1,0 +1,14 @@
+:root {
+      --text-primary: #fff;
+      --text-secondary: #303030;
+      --border-secondary: rgba(48, 48, 48, 0.2);
+      --expand-section-bg: rgba(255, 255, 255, 0.75);
+
+      --text-gray: #383838;
+
+      &[data-mode="night"] {
+            --text-secondary: #fff;
+            --border-secondary: rgba(255, 255, 255, 0.2);
+            --expand-section-bg: rgba(0, 0, 0, 0.75);
+      }
+}
