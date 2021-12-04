@@ -3,8 +3,6 @@
 :root {
       --transition-hover: 150ms ease;
 
-      --bg-image: url("../assets/desktop/bg-image-daytime.jpg");
-
       &[data-mode="day"] {
             --bg-image: url("../assets/mobile/bg-image-daytime.jpg");
             @include breakpoint-up(medium) {
