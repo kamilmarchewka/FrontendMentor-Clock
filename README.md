@@ -75,7 +75,7 @@ I've used GSAP to translate the 'upper' section by height of the 'lower' section
 ```
 
 ## Result
-Eventually I've created [this](www.xyz.com) fully responsive website. Background image as well as the color scheme change
+Eventually I've created [this](https://clock-website-252.netlify.app) fully responsive website. Background image as well as the color scheme change
 based on the current time (whether it's day or night). The biggest challenge alonge the way was to create this 'expand' effect.
 
 
