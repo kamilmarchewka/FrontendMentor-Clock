@@ -7,7 +7,7 @@
       grid-template-rows: auto auto;
       grid-template-areas: "text btn" "author .";
       height: fit-content;
-      max-height: rem(150);
+      // max-height: rem(150);
       overflow: hidden;
       &__text {
             grid-area: text;
